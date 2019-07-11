@@ -22,7 +22,7 @@ def reduce(y, n=0)
      x += yield(y[i], value)
      i += 1
      z += x
-     z
+     x
 
    elsif y[i]
      answer = true
