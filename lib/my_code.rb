@@ -39,5 +39,5 @@ def reduce(y, n=0)
    end
 
 end
-count > 0 ? answer : (count < 0) ? answer: value
+count > 0 ? answer : (count < 0) ? answer : value
 end
