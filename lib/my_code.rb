@@ -37,5 +37,5 @@ def reduce(y, n=0)
    end
 
 end
-count > 0 ? true : x
+count > 0 ? true : value
 end
