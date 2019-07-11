@@ -33,7 +33,7 @@ def reduce(y, n=0)
      count -= 1
      answer = false
      i += 1
-  else 
+  else
     answer = false
     i += 1
    end
