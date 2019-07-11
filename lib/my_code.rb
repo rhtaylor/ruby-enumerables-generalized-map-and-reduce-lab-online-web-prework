@@ -19,7 +19,7 @@ def reduce(y, n=0)
   y.length.times do
   if y[i] && (y[i].is_a? Integer)
 
-     x += yield(value, y[i])
+     value += yield(value, y[i])
      i += 1
      z += x
      x
