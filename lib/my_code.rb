@@ -29,13 +29,15 @@ def reduce(y, n=0)
      count += 1
      i += 1
      answer
-   else
+   elsif !y[i] && !y[i - 1]
+     count -= 1
      answer = false
      i += 1
-
-
+  else 
+    answer = false
+    i += 1
    end
 
 end
-count > 0 ? answer : value
+count > 0 ? answer : (count < 0) ? answer: value
 end
